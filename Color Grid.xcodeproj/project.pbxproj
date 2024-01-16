@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3801F7802B567C0100AE52FF /* Color_GridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3801F77F2B567C0100AE52FF /* Color_GridApp.swift */; };
+		3801F7822B567C0100AE52FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3801F7812B567C0100AE52FF /* ContentView.swift */; };
+		3801F7842B567C0400AE52FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3801F7832B567C0400AE52FF /* Assets.xcassets */; };
+		3801F7872B567C0400AE52FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3801F7862B567C0400AE52FF /* Preview Assets.xcassets */; };
+		3801F7912B567C0400AE52FF /* Color_GridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3801F7902B567C0400AE52FF /* Color_GridTests.swift */; };
+		3801F79B2B567C0400AE52FF /* Color_GridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3801F79A2B567C0400AE52FF /* Color_GridUITests.swift */; };
+		3801F79D2B567C0400AE52FF /* Color_GridUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3801F79C2B567C0400AE52FF /* Color_GridUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3801F78D2B567C0400AE52FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3801F7742B567C0100AE52FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3801F77B2B567C0100AE52FF;
+			remoteInfo = "Color Grid";
+		};
+		3801F7972B567C0400AE52FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3801F7742B567C0100AE52FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3801F77B2B567C0100AE52FF;
+			remoteInfo = "Color Grid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3801F77C2B567C0100AE52FF /* Color Grid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Grid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3801F77F2B567C0100AE52FF /* Color_GridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_GridApp.swift; sourceTree = "<group>"; };
+		3801F7812B567C0100AE52FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3801F7832B567C0400AE52FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3801F7862B567C0400AE52FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3801F78C2B567C0400AE52FF /* Color GridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color GridTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3801F7902B567C0400AE52FF /* Color_GridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_GridTests.swift; sourceTree = "<group>"; };
+		3801F7962B567C0400AE52FF /* Color GridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color GridUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3801F79A2B567C0400AE52FF /* Color_GridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_GridUITests.swift; sourceTree = "<group>"; };
+		3801F79C2B567C0400AE52FF /* Color_GridUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_GridUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3801F7792B567C0100AE52FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3801F7892B567C0400AE52FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3801F7932B567C0400AE52FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3801F7732B567C0100AE52FF = {
+			isa = PBXGroup;
+			children = (
+				3801F77E2B567C0100AE52FF /* Color Grid */,
+				3801F78F2B567C0400AE52FF /* Color GridTests */,
+				3801F7992B567C0400AE52FF /* Color GridUITests */,
+				3801F77D2B567C0100AE52FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3801F77D2B567C0100AE52FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3801F77C2B567C0100AE52FF /* Color Grid.app */,
+				3801F78C2B567C0400AE52FF /* Color GridTests.xctest */,
+				3801F7962B567C0400AE52FF /* Color GridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3801F77E2B567C0100AE52FF /* Color Grid */ = {
+			isa = PBXGroup;
+			children = (
+				3801F77F2B567C0100AE52FF /* Color_GridApp.swift */,
+				3801F7812B567C0100AE52FF /* ContentView.swift */,
+				3801F7832B567C0400AE52FF /* Assets.xcassets */,
+				3801F7852B567C0400AE52FF /* Preview Content */,
+			);
+			path = "Color Grid";
+			sourceTree = "<group>";
+		};
+		3801F7852B567C0400AE52FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3801F7862B567C0400AE52FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3801F78F2B567C0400AE52FF /* Color GridTests */ = {
+			isa = PBXGroup;
+			children = (
+				3801F7902B567C0400AE52FF /* Color_GridTests.swift */,
+			);
+			path = "Color GridTests";
+			sourceTree = "<group>";
+		};
+		3801F7992B567C0400AE52FF /* Color GridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3801F79A2B567C0400AE52FF /* Color_GridUITests.swift */,
+				3801F79C2B567C0400AE52FF /* Color_GridUITestsLaunchTests.swift */,
+			);
+			path = "Color GridUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3801F77B2B567C0100AE52FF /* Color Grid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3801F7A02B567C0400AE52FF /* Build configuration list for PBXNativeTarget "Color Grid" */;
+			buildPhases = (
+				3801F7782B567C0100AE52FF /* Sources */,
+				3801F7792B567C0100AE52FF /* Frameworks */,
+				3801F77A2B567C0100AE52FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Color Grid";
+			productName = "Color Grid";
+			productReference = 3801F77C2B567C0100AE52FF /* Color Grid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3801F78B2B567C0400AE52FF /* Color GridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3801F7A32B567C0400AE52FF /* Build configuration list for PBXNativeTarget "Color GridTests" */;
+			buildPhases = (
+				3801F7882B567C0400AE52FF /* Sources */,
+				3801F7892B567C0400AE52FF /* Frameworks */,
+				3801F78A2B567C0400AE52FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3801F78E2B567C0400AE52FF /* PBXTargetDependency */,
+			);
+			name = "Color GridTests";
+			productName = "Color GridTests";
+			productReference = 3801F78C2B567C0400AE52FF /* Color GridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3801F7952B567C0400AE52FF /* Color GridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3801F7A62B567C0400AE52FF /* Build configuration list for PBXNativeTarget "Color GridUITests" */;
+			buildPhases = (
+				3801F7922B567C0400AE52FF /* Sources */,
+				3801F7932B567C0400AE52FF /* Frameworks */,
+				3801F7942B567C0400AE52FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3801F7982B567C0400AE52FF /* PBXTargetDependency */,
+			);
+			name = "Color GridUITests";
+			productName = "Color GridUITests";
+			productReference = 3801F7962B567C0400AE52FF /* Color GridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3801F7742B567C0100AE52FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3801F77B2B567C0100AE52FF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					3801F78B2B567C0400AE52FF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3801F77B2B567C0100AE52FF;
+					};
+					3801F7952B567C0400AE52FF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3801F77B2B567C0100AE52FF;
+					};
+				};
+			};
+			buildConfigurationList = 3801F7772B567C0100AE52FF /* Build configuration list for PBXProject "Color Grid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3801F7732B567C0100AE52FF;
+			productRefGroup = 3801F77D2B567C0100AE52FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3801F77B2B567C0100AE52FF /* Color Grid */,
+				3801F78B2B567C0400AE52FF /* Color GridTests */,
+				3801F7952B567C0400AE52FF /* Color GridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3801F77A2B567C0100AE52FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3801F7872B567C0400AE52FF /* Preview Assets.xcassets in Resources */,
+				3801F7842B567C0400AE52FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3801F78A2B567C0400AE52FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3801F7942B567C0400AE52FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3801F7782B567C0100AE52FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3801F7822B567C0100AE52FF /* ContentView.swift in Sources */,
+				3801F7802B567C0100AE52FF /* Color_GridApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3801F7882B567C0400AE52FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3801F7912B567C0400AE52FF /* Color_GridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3801F7922B567C0400AE52FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3801F79D2B567C0400AE52FF /* Color_GridUITestsLaunchTests.swift in Sources */,
+				3801F79B2B567C0400AE52FF /* Color_GridUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3801F78E2B567C0400AE52FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3801F77B2B567C0100AE52FF /* Color Grid */;
+			targetProxy = 3801F78D2B567C0400AE52FF /* PBXContainerItemProxy */;
+		};
+		3801F7982B567C0400AE52FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3801F77B2B567C0100AE52FF /* Color Grid */;
+			targetProxy = 3801F7972B567C0400AE52FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3801F79E2B567C0400AE52FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3801F79F2B567C0400AE52FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3801F7A12B567C0400AE52FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Color Grid/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "menura.Color-Grid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3801F7A22B567C0400AE52FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Color Grid/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "menura.Color-Grid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3801F7A42B567C0400AE52FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "menura.Color-GridTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Grid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Color Grid";
+			};
+			name = Debug;
+		};
+		3801F7A52B567C0400AE52FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "menura.Color-GridTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Grid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Color Grid";
+			};
+			name = Release;
+		};
+		3801F7A72B567C0400AE52FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "menura.Color-GridUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Color Grid";
+			};
+			name = Debug;
+		};
+		3801F7A82B567C0400AE52FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "menura.Color-GridUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Color Grid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3801F7772B567C0100AE52FF /* Build configuration list for PBXProject "Color Grid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3801F79E2B567C0400AE52FF /* Debug */,
+				3801F79F2B567C0400AE52FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3801F7A02B567C0400AE52FF /* Build configuration list for PBXNativeTarget "Color Grid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3801F7A12B567C0400AE52FF /* Debug */,
+				3801F7A22B567C0400AE52FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3801F7A32B567C0400AE52FF /* Build configuration list for PBXNativeTarget "Color GridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3801F7A42B567C0400AE52FF /* Debug */,
+				3801F7A52B567C0400AE52FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3801F7A62B567C0400AE52FF /* Build configuration list for PBXNativeTarget "Color GridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3801F7A72B567C0400AE52FF /* Debug */,
+				3801F7A82B567C0400AE52FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3801F7742B567C0100AE52FF /* Project object */;
+}
